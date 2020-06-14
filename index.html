@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/icon-font.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon-16x16.png">
+
+        <title>Resume</title>
+    </head>
+
+    <body onload="myFunction()">
+
+        <!--preloader attachement start-->
+        <div class="load_" ></div>
+        <!--preloader attachement end here-->
+
+        <div class="navigation" >
+            <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+            <label for="navi-toggle" class="navigation__button">
+                <span class="navigation__icon">&nbsp;</span>
+            </label>
+
+            <div class="navigation__background">&nbsp;</div>
+
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="index.html#home" class="navigation__link"><span>01</span>Home</a></li>
+                    <li class="navigation__item"><a href="index.html#brief" class="navigation__link"><span>02</span>Brief</a></li>
+                    <li class="navigation__item"><a href="index.html#interest" class="navigation__link"><span>03</span>Interest</a></li>
+                    <li class="navigation__item"><a href="index.html#timeline" class="navigation__link"><span>04</span>Timeline</a></li>
+                    <li class="navigation__item"><a href="index.html#contact" class="navigation__link"><span>05</span>Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="loading-line" class="loading-line"></div>
+
+        <header class="container-fluid header parallax" id="home" name="home" > 
+            <div class="header__text-box" >
+                <h1 class="heading-primary--main" style="margin-bottom: 2rem;"> I am  <span></span> </h1>
+
+                <a href="documents/Resume.pdf" target="_blank" class="btn btn-white btn-animated"> view Resume</a>
+            </div>
+        </header>
+
+        <main>
+            <!-- Brief Section of the main website  -->
+            <section class="container-fluid section-about extra_padding_about" id="brief" name="brief">
+                <div class="u-centre-text u-margin-bottom-big extra_padding_heading">
+                    <h2 class="heading-secoundry">
+                        Exciting Projects worked on
+                    </h2>    
+                </div>
+    
+                <div class="row">
+                    <div class="col-md-4 offset-md-1 col-sm-4 offset-sm-1 ">
+                        <h3 class="heading-tertiary u-margin-bottom-small">Coding and Problem solving</h3>
+                        <p >I am a Web developer and Artificial Intelligence enthusiastic love to work in area of Deep neural network and machine learning. 
+                            It has been a more than 2-year-long coding journey and I worked on quite awesome project in the mentioned tech domain.</p>
+                        
+                        <h3 class="heading-tertiary u-margin-bottom-small">Collaboration building</h3>
+                        <p >A group initiative is the key function in building and working on further as it reduces the work load and also variety of 
+                            thought boost and improve the project on various parameter and it also boosts the learning process.</p>
+                        
+                        <a href="https://github.com/singhgaurav2323" class="btn-text">More Projects &rarr;</a>
+                    </div>
+    
+                    <div class="col-md-4 offset-md-1 col-sm-3 offset-sm-2 ">
+                        <div class="composition">
+                            <img src="img/nat-1.jpg" alt="photo 1" class="composition__photo composition__photo-p1">
+                            <img src="img/nat-2.jpg" alt="photo 2" class="composition__photo composition__photo-p2">
+                            <img src="img/nat-3.jpg" alt="photo 3" class="composition__photo composition__photo-p3">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section></section>
+            
+            <!-- Timeline Section of the webpage i.e. experience -->
+            <section class="section-stories extra_padding_timeline" id="timeline" name="timeline">
+                <div class="bg-video">
+                    <video class="bg-video__content" autoplay muted loop>
+                        <source src="img/video.mp4" type="video/mp4">
+                        <source src="img/video.webm" type="video/webm">
+                        Your browser is failing the content load.
+                    </video>
+                </div>
+
+                <div class="container">
+                    
+                    <div class="u-centre-text ">
+                        <h2 class="heading-secoundry" style="margin-top: 60px;">
+                            Experience Timeline
+                        </h2>
+                    </div>
+
+                    <div class="row transparency">
+                        <div class="col-md-3 bg-success aos-init aos-animate shadow-lg rounded" data-aos="fade-right" data-aos-offset="50"
+                            data-aos-duration="500">
+                            <div class="card-body cc-experience-header">
+                                <p>May-June 2020</p>
+                                <div class="h5">Computer Tutor</div>
+                            </div>
+                        </div>
+                        <div class="col-md-9 aos-init aos-animate shadow-lg rounded" data-aos="fade-left" data-aos-offset="50"
+                            data-aos-duration="500">
+                            <div class="card-body">
+                                <div class="h5">Python Programming Intern</div>
+                                <p>During this internship period, the responsibility was to handle the coding issues and the 
+                                    question-solving in the python language which involved the Data Structure , Django Web framework along with SQL.
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row transparency">
+                        <div class="col-md-3 bg-success aos-init aos-animate shadow-lg rounded" data-aos="fade-right" data-aos-offset="50"
+                            data-aos-duration="500">
+                            <div class="card-body cc-experience-header">
+                                <p>June-August 2019 </p>
+                                <div class="h5">Bvcoe, New Delhi</div>
+                            </div>
+                        </div>
+                        <div class="col-md-9 aos-init aos-animate shadow-lg rounded" data-aos="fade-left" data-aos-offset="50"
+                            data-aos-duration="500">
+                            <div class="card-body">
+                                <div class="h5">Summer Training</div>
+                                <p>A team collaboration on research training under mentorship of Professor on machine learning
+                                    algorithm and parameter tuning for the optimum result and analysis. Real time data analysis and the model tuning
+                                    according to the variation of the parametre.
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row transparency">
+                        <div class="col-md-3 bg-success aos-init aos-animate shadow-lg rounded" data-aos="fade-right" data-aos-offset="50"
+                            data-aos-duration="500">
+                            <div class="card-body cc-experience-header">
+                                <p>January-Febuary 2020</p>
+                                <div class="h5">Indian Railways, New Delhi</div>
+                            </div>
+                        </div>
+                        <div class="col-md-9 aos-init aos-animate" data-aos="fade-left shadow-lg rounded" data-aos-offset="50"
+                            data-aos-duration="500">
+                            <div class="card-body">
+                                <div class="h5">Winter Training</div>
+                                <p>A training to study the working and implementation in Indian Railways of the signal system
+                                    and power supply in it. Analyses of the signal flow and control throughout the various station and master
+                                control.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer Section of the webpage -->
+        <footer class="footer parallax extra_padding_footer" id="contact" name="contact">
+            <div class="row">
+                <div class="col-md-5 offset-md-1 col-sm-4 offset-sm-2">
+                    <div class="footer__navigation">
+                        <ul class="footer__list">
+                            <li class="footer__item"><a  href="https://www.facebook.com/gauravcore"> <img alt="Facebook " class="footer__link"  src="img/facebook.png"></a> </li>
+                            <li class="footer__item"><a  href="https://github.com/singhgaurav2323"> <img alt="Github " class="footer__link"  src="img/github-logo.png"></a> </li>
+                            <li class="footer__item"><a  href="mailto:singhgaurav2323@gmail.com"> <img alt=" Gmail" class="footer__link"  src="img/gmail.png"></a> </li>
+                            <li class="footer__item"><a  href="https://www.linkedin.com/in/singhgaurav2323/"> <img alt="linkedin " class="footer__link"  src="img/linkedin.png"></a> </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 offset-md-2 col-sm-4 offset-sm-1">
+                    <div class="footer__logo-box ">
+                        <h6 class="footer__text" style="color: white; font-size: 25px; font-weight: 300;"> © by Gaurav Singh </h6>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    </body>
+    
+    <!--attaching the javascript file -->
+    <script src="index.js"></script>
+    <!---->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</html>
